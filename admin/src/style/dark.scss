@@ -1,0 +1,95 @@
+.app.dark {
+  background-color: #111;
+  color: rgb(156, 156, 156);
+
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+
+  .table {
+    background-color: #111;
+
+    .tableCell {
+      color: gray;
+    }
+  }
+
+  .navbar {
+    color: #999;
+    border-color: #333;
+
+    .search {
+      border-color: rgb(100, 100, 100);
+    }
+  }
+
+  .sidebar {
+    background-color: #111;
+    border-color: #333;
+    
+    .link{
+      text-decoration: none;
+    }
+
+    .top {
+      .logo {
+        color: #999;
+      }
+    }
+
+    hr {
+      border-color: #333;
+    }
+
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+
+        .icon {
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .userDatatable{
+      .datagrid{
+          color:#999;
+          border:none;
+
+          .viewButton, .deleteButton, .cellWithStatus{
+            color: #999;
+            border: none;
+          }
+      }
+  }
+
+  input{
+      background-color: transparent;
+  }
+
+  .widget, .featured, .chart, .table{
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.151);
+    box-shadow: 2px 4px 10px 1px rgba(37, 37, 37, 0.47);
+  }
+
+  .new{
+      .newContainer{
+      .top, .bottom{
+        -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.151);
+        box-shadow: 2px 4px 10px 1px rgba(37, 37, 37, 0.47);
+      }
+    }
+  }
+
+  .single{
+    .singleContainer{
+    .top, .left, .bottom{
+      -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.151);
+      box-shadow: 2px 4px 10px 1px rgba(37, 37, 37, 0.47);
+    }
+  }
+}
+}
